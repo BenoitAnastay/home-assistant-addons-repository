@@ -1,6 +1,6 @@
 name: Paperless-ngx
 version: 1.17.4
-slug: paperless
+slug: paperless-ngx
 description: A community-supported supercharged version of paperless
 url: https://github.com/BenoitAnastay/paperless-home-assistant-addon
 codenotary: benoit@anastay.dev
@@ -44,4 +44,4 @@ schema:
     password: password
   timezone:
     timezone: str
-image: ghcr.io/benoitanastay/paperless-ngx
+image: ghcr.io/benoitanastay/paperless-ngx/{arch}
