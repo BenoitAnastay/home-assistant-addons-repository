@@ -1,0 +1,47 @@
+name: Paperless-ngx
+version: 1.17.4
+slug: paperless
+description: A community-supported supercharged version of paperless
+url: https://github.com/BenoitAnastay/paperless-home-assistant-addon
+codenotary: benoit@anastay.dev
+startup: services
+init: false
+panel_icon: mdi:leaf
+panel_title: Paperless
+arch:
+- aarch64
+- amd64
+ports:
+  8000/tcp: 8000
+ports_description:
+  8000/tcp: Web Interface (make empty to disable)
+host_network: true
+apparmor: false
+map:
+- share:rw
+journald: true
+options:
+  url:
+  filename:
+    format: "{created_year}/{correspondent}/{title}"
+  ocr:
+    language: eng
+  default_superuser:
+    username:
+    email:
+    password:
+  timezone:
+    timezone: UTC
+schema:
+  url: str
+  filename:
+    format: str
+  ocr:
+    language: str
+  default_superuser:
+    username: str
+    email: email
+    password: password
+  timezone:
+    timezone: str
+image: ghcr.io/hassio-addons/ssh/{arch}
