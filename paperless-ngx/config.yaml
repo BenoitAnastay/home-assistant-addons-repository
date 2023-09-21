@@ -44,4 +44,4 @@ schema:
     password: password
   timezone:
     timezone: str
-image: ghcr.io/benoitanastay/paperless-ngx/{arch}
+image: ghcr.io/benoitanastay/paperless-ngx
