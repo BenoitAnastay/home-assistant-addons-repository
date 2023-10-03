@@ -2,4 +2,4 @@
 
 ## 🐛 Bug fixes
 
-- Update deploy.yaml @BenoitAnastay ([#6](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/6))
+- Fixing issue with optional languages @BenoitAnastay ([#5](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/5))
