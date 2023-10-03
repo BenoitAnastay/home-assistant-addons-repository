@@ -1,7 +1,5 @@
-🐛 Bug fixes
-It resolve a bug with the super user creation
+## What’s changed
 
-🚨 Breaking changes
-The configuration format changed, you need to check the configuration after update
+## 🐛 Bug fixes
 
-**Full Changelog**: https://github.com/BenoitAnastay/paperless-home-assistant-addon/compare/v1.17.4d...v1.17.4e
+- Update deploy.yaml @BenoitAnastay ([#6](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/6))
