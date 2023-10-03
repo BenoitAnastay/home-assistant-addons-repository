@@ -4,7 +4,10 @@ configuration:
     name: Filename
     description: Default file format
   language:
-    name: Language
+    name: Main Language
+    description: The main language to use for OCR
+  language_packages:
+    name: Languages packs
     description: >-
       List of langages to install for OCR
   default_superuser:
@@ -13,3 +16,5 @@ configuration:
   timezone:
     name: Timezone
     description: Timezone
+network:
+  8000/tcp: Web interface
