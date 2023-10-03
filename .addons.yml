@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  example:
+    repository: BenoitAnastay/paperless-home-assistant-addon
+    target: paperless-ngx
+    image: ghcr.io/benoitanastay/paperless-ngx/{arch}
