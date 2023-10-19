@@ -19,7 +19,6 @@ ports_description:
 map:
 - share:rw
 options:
-  url: null
   filename: '{created_year}/{correspondent}/{title}'
   language: eng
   language_packages: eng deu fra ita spa
