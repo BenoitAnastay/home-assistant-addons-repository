@@ -5,3 +5,7 @@ addons:
     repository: BenoitAnastay/paperless-home-assistant-addon
     target: paperless-ngx
     image: ghcr.io/benoitanastay/paperless-ngx/{arch}
+  dashy:
+    repository: BenoitAnastay/dashy-home-assistant-addon
+    target: dashy
+    image: ghcr.io/benoitanastay/dashy/{arch}
