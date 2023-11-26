@@ -1,0 +1,21 @@
+name: Dashy
+version: 0.1.0
+slug: dashy
+url: https://dashy.to/
+init: false
+description: Dashy is an open source, highly customizable, easy to use, privacy-respecting
+  dashboard app
+webui: http://[HOST]:[PORT:8000]
+stage: experimental
+arch:
+- aarch64
+- amd64
+- armv7
+startup: services
+ports:
+  80/tcp: 8000
+ports_description:
+  80/tcp: Web interface
+map:
+- share:rw
+image: ghcr.io/benoitanastay/dashy/{arch}
