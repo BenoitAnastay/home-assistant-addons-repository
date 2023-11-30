@@ -1,5 +1,5 @@
 name: Paperless-ngx
-version: 0.1.1
+version: 0.1.2
 slug: paperless-ngx
 url: https://github.com/paperless-ngx/paperless-ngx
 description: Paperless is an application that manages your personal documents. With
@@ -19,6 +19,7 @@ ports_description:
 map:
 - share:rw
 options:
+  url: null
   filename: '{created_year}/{correspondent}/{title}'
   language: eng
   language_packages: eng deu fra ita spa
@@ -28,7 +29,7 @@ options:
     password: null
   timezone: UTC
 schema:
-  url: "str?"
+  url: str?
   filename: str
   language: str
   language_packages: str

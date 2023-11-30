@@ -1,6 +1,6 @@
 # Paperless-ngx Home Assistant Addon
 Paperless is an application that manages your personal documents. With the help of a document scanner, paperless transforms your wieldy physical document binders into a searchable archive and provides many utilities for finding and managing your documents.
-### Paperless Version 1.17.4-dev
+### Paperless Version 2.0.0
 
 ## About
 
@@ -54,5 +54,5 @@ paperless_auth_header: Token <django-token>
 You can generate a token by clicking on `Settings -> Django Adminpanel -> Token` in your paperless instance.
 
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
-[release]: https://github.com/BenoitAnastay/paperless-home-assistant-addon/tree/v0.1.1
+[release-shield]: https://img.shields.io/badge/version-v0.1.2-blue.svg
+[release]: https://github.com/BenoitAnastay/paperless-home-assistant-addon/tree/v0.1.2
