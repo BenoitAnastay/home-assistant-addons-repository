@@ -9,3 +9,7 @@ addons:
     repository: BenoitAnastay/dashy-home-assistant-addon
     target: dashy
     image: ghcr.io/benoitanastay/dashy/{arch}
+  heimdall:
+    repository: BenoitAnastay/heimdall-home-assistant-addon
+    target: heimdall
+    image: ghcr.io/benoitanastay/heimdall/{arch}
