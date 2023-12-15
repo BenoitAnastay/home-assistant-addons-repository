@@ -1,0 +1,25 @@
+name: Heimdall
+version: 0.1.0
+slug: heimdall
+url: https://heimdall.site/
+init: false
+description: Heimdall is a dashboard for all your web applications.
+webui: http://[HOST]:[PORT:8002]
+stage: experimental
+arch:
+- aarch64
+- amd64
+ports:
+  80/tcp: 8002
+ports_description:
+  80/tcp: Web interface
+map:
+- share:rw
+options:
+  PUID: 1001
+  PGID: 1001
+schema:
+  PUID: int
+  PGID: int
+  TZ: str?
+image: ghcr.io/benoitanastay/heimdall/{arch}
