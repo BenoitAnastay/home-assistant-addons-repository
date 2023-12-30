@@ -22,5 +22,17 @@ configuration:
   polling_interval:
     name: Consume directory polling interval
     description: Might be useful when the directory is on a network share
+  barcodes_enabled:
+    name: Barcodes consuming
+    description: Enable consumption of barcodes
+  barcodes_asn:
+    name: ASN Barcodes
+    description: Enable ASN barcodes
+  consumer_recursive:
+    name: Recusive consuming
+    description: Enable recursive watching of the consumption directory.
+  consumer_subdirs_as_tags:
+    name: Subdirectories as tags
+    description: Set the names of subdirectories as tags for consumed files
 network:
   8000/tcp: Web interface

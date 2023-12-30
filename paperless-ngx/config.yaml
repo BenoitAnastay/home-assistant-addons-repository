@@ -1,13 +1,13 @@
 name: Paperless-ngx
-version: 0.1.5
+version: 1.0.0
 slug: paperless-ngx
 url: https://github.com/paperless-ngx/paperless-ngx
+init: false
 description: Paperless is an application that manages your personal documents. With
   the help of a document scanner, paperless transforms your wieldy physical document
   binders into a searchable archive and provides many utilities for finding and managing
   your documents.
 webui: http://[HOST]:[PORT:8000]
-stage: experimental
 arch:
 - aarch64
 - amd64
@@ -38,4 +38,8 @@ schema:
     password: password
   timezone: str
   polling_interval: int?
+  barcodes_enabled: bool?
+  barcodes_asn: bool?
+  consumer_recursive: bool?
+  consumer_subdirs_as_tags: bool?
 image: ghcr.io/benoitanastay/paperless-ngx/{arch}
