@@ -1,23 +1,17 @@
 ## What’s changed
 
-## 🐛 Repository Bug fixes
+## ✨ New features
 
-- 🐛 CI Fix build cache restoring @BenoitAnastay ([#36](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/36))
-- 🐛 Update execution flag of the s6-overlay scripts @BenoitAnastay ([#46](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/46))
+- 🔨 Move data to addon_config folder and add paperless.conf file @BenoitAnastay ([#51](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/51))
+- ✨ Ingress and SSL support @BenoitAnastay ([#53](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/53))
 
 ## 🚀 Enhancements
 
-- 🔼 Update Paperless-ngx to v2.2.1 @BenoitAnastay ([#37](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/37))
-- ✨ Enable configuration of barcode asn parsing @BenoitAnastay ([#38](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/39))
-- 🛠️ Use S6 overlay initalisation @BenoitAnastay ([#42](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/42))
-- ✨ Add recursive consuming and subdirectory as tag options @BenoitAnastay ([#44](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/44))
+- ⬆️ Update Paperless-ngx to 2.3.1 @BenoitAnastay ([#50](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/50))
+- 🔨 Move data to addon_config folder and add paperless.conf file @BenoitAnastay ([#51](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/51))
+- ⚡ Improve barcodes recognition with ZXING library @BenoitAnastay ([#52](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/52))
 
 ## 📚 Documentation
 
-- 📘 Add new options to the documentation @BenoitAnastay ([#41](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/41))
-
-## ⬆️ Dependency updates
-
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.3.0 @renovate ([#32](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/32))
-- ⬆️ Update debian_12/curl to v7.88.1-10+deb12u5 @renovate ([#33](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/33))
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.3.1 @renovate ([#34](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/34))
+- 🎉 Fix link to my home assistant and update maintenance badge @BenoitAnastay ([#48](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/48))
+- 📚 Update documentation @BenoitAnastay ([#49](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/49))
