@@ -1,10 +1,18 @@
-## Known issue
-- Invalid CSRF, allowed CSRF isn't set automatically, if you encounter that error, you must set `PAPERLESS_URL` to the IP or domain name you use to access Paperless
-- This release is only intended to update Paperless, add-on fix are planned for the next release
-
 ## What’s changed
+
+## 🐛 Bug fixes
+
+- 🐛 Fix Unallowed CSRF (Get allowed URLs using Home Assistant API) @BenoitAnastay ([#63](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/63))
+
+## 🚀 Enhancements
+
+- 🔨 Extend CSRF string with raw internal and external URL @BenoitAnastay ([#66](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/66))
+- 🔨 Enable both ingress and direct access @BenoitAnastay ([#67](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/67))
+
+## 📚 Documentation
+
+- 📚 Create LICENSE @BenoitAnastay ([#64](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/64))
 
 ## ⬆️ Dependency updates
 
-- 🔨 Update renovate @BenoitAnastay ([#59](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/59))
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.3.3 @renovate ([#62](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/62))
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.4.0 @renovate ([#68](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/68))
