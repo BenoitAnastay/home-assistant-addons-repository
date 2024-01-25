@@ -3,6 +3,9 @@ configuration:
   url:
     name: Paperless URL
     description: You can set the value of PAPERLESS_URL manually
+  csrf_allowed:
+    name: CSRF Allowed domains
+    description: List of domains you want to manually add to CSRD_ALLOWED
   filename:
     name: Filename
     description: Default file format
@@ -43,5 +46,8 @@ configuration:
   keyfile:
     name: SSL Keyfile
     description: Name of ssl key file (in /ssl/ directory)
+  max_upload:
+    name: Max Upload
+    description: In Megabyte set the max upload file size
 network:
   80/tcp: Web interface (Not required for Ingress)

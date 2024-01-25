@@ -1,18 +1,22 @@
 ## What’s changed
 
+## ✨ New features
+
+- ✨Add option to set client_max_body_size @BenoitAnastay ([#78](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/78))
+
 ## 🐛 Bug fixes
 
-- 🐛 Fix Unallowed CSRF (Get allowed URLs using Home Assistant API) @BenoitAnastay ([#63](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/63))
+- 🐛 Fix #69 link-local hostname was missing `.local` @BenoitAnastay ([#72](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/72))
 
 ## 🚀 Enhancements
 
-- 🔨 Extend CSRF string with raw internal and external URL @BenoitAnastay ([#66](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/66))
-- 🔨 Enable both ingress and direct access @BenoitAnastay ([#67](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/67))
+- ⏲️ Raise maximum file upload size to 30M @BenoitAnastay ([#75](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/75))
+- ⚙️ Add option to customize trusted domains @BenoitAnastay ([#77](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/77))
 
 ## 📚 Documentation
 
-- 📚 Create LICENSE @BenoitAnastay ([#64](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/64))
+- 📘 Update documentation about direct access and CSRF error @BenoitAnastay ([#74](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/74))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.4.0 @renovate ([#68](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/68))
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.4.1 @renovate ([#71](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/71))
