@@ -1,11 +1,12 @@
 name: Paperless-ngx
-version: 1.2.3
+version: 1.2.4
 slug: paperless-ngx
 url: https://github.com/paperless-ngx/paperless-ngx
 init: false
 ingress: true
 ingress_stream: true
 panel_icon: mdi:leaf
+panel_admin: false
 homeassistant_api: true
 hassio_api: true
 description: Paperless is an application that manages your personal documents. With
@@ -29,9 +30,9 @@ options:
   language: eng
   language_packages: eng deu fra ita spa
   default_superuser:
-    username: null
-    email: null
-    password: null
+    username: admin
+    email: admin@local.dev
+    password: changeme
   timezone: UTC
   ssl: false
   certfile: fullchain.pem

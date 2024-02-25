@@ -1,12 +1,17 @@
 ## What’s changed
 
+## 🐛 Bug fixes
+
+- Change share directory owner @BenoitAnastay ([#97](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/97))
+- 🔧 Add fowarded host and port to nginx proxy @BenoitAnastay ([#103](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/103))
+
+## 🚀 Enhancements
+
+- Allow shortname of HA hostname @BenoitAnastay ([#98](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/98))
+- 🔧 Allow users to display Paperless tab @BenoitAnastay ([#101](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/101))
+- 🦺 Add input validation for admin password @BenoitAnastay ([#102](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/102))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update debian_12/tzdata to v2024 @renovate ([#85](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/85))
-- ⬆️ Update debian_12/mariadb-client to v1:10.11.6-0+deb12u1 @renovate ([#84](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/84))
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.5.0 @renovate ([#86](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/86))
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.3.2 @renovate ([#88](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/88))
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.3.3 @renovate ([#90](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/90))
-- Update redis-server and libzbar0  @BenoitAnastay ([#91](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/91))
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.5.1 @renovate ([#89](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/89))
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.5.2 @renovate ([#92](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/92))
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.5.3 @renovate ([#93](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/93))
+- ⬆️ Update debian_12/imagemagick to v8:6.9.11.60+dfsg-1.6+deb12u1 @renovate ([#100](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/100))
