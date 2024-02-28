@@ -2,4 +2,4 @@
 
 ## 🐛 Bug fixes
 
-- ⬆️ Install ZXing from pip instead of debian package @BenoitAnastay ([#109](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/109))
+- 🐛 Add a validation before chown @BenoitAnastay ([#110](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/110))
