@@ -1,5 +1,6 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ⬆️ Dependency updates
 
-- 🐛 Add a validation before chown @BenoitAnastay ([#110](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/110))
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.6.0 @renovate ([#111](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/111))
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.6.1 @renovate ([#112](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/112))
