@@ -1,0 +1,25 @@
+name: Authelia
+version: 0.1.0
+slug: authelia
+url: https://www.authelia.com/
+init: false
+description: Authelia is an open-source authentication and authorization server
+webui: http://[HOST]:[PORT:9091]
+stage: experimental
+arch:
+- aarch64
+- amd64
+ports:
+  9091/tcp: 9091
+map:
+- addon_config:rw
+options:
+  domain: exemple.com
+schema:
+  domain: str
+  smtp_username: str?
+  smtp_password: str?
+  smtp_sender: str?
+  smtp_host: str?
+  smtp_port: str?
+image: ghcr.io/benoitanastay/authelia/{arch}

@@ -1,0 +1,9 @@
+---
+configuration:
+  domain:
+    name: Domain
+    description: >
+      This must be the same as the domain Authelia
+       is served on or the root of the domain
+network:
+  9091/tcp: Web interface (Not required for Ingress)
