@@ -1,5 +1,5 @@
 name: Paperless-ngx
-version: 1.2.8
+version: 1.2.9
 slug: paperless-ngx
 url: https://github.com/paperless-ngx/paperless-ngx
 init: false
@@ -58,4 +58,6 @@ schema:
   certfile: str
   keyfile: str
   max_upload: int?
+  usermap_uid: int?
+  usermap_gid: int?
 image: ghcr.io/benoitanastay/paperless-ngx/{arch}
