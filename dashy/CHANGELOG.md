@@ -1,3 +1,3 @@
 ## What’s changed
 
-* New add-on 
+* Update Dashy V-3.1.1
