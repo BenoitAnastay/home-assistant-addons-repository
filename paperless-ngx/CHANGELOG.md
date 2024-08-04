@@ -2,7 +2,7 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.10.0 @renovate ([#151](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/151))
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.3.4 @renovate ([#150](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/150))
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.10.1 @renovate ([#153](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/153))
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.10.2 @renovate ([#155](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/155))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.4.0 @renovate ([#159](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/159))
+- ⬆️ Update debian_12/curl to v7.88.1-10+deb12u6 @renovate ([#158](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/158))
+- ⬆️ Update dependencies @BenoitAnastay ([#161](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/161))
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.11.0 @renovate ([#160](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/160))
