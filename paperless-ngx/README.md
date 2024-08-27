@@ -3,7 +3,7 @@
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
 Paperless is an application that manages your personal documents. With the help of a document scanner, paperless transforms your wieldy physical document binders into a searchable archive and provides many utilities for finding and managing your documents.
-### Paperless Version 2.4.1
+### Paperless-ngx
 
 ## About
 
@@ -58,7 +58,7 @@ You can generate a token by clicking on `Settings -> Django Adminpanel -> Token`
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v2.0.6-blue.svg
-[release]: https://github.com/BenoitAnastay/paperless-home-assistant-addon/tree/v2.0.6
+[release-shield]: https://img.shields.io/badge/version-v2.1.0-blue.svg
+[release]: https://github.com/BenoitAnastay/paperless-home-assistant-addon/tree/v2.1.0
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=ca5234a0_paperless-ngx&repository_url=https%3A%2F%2Fgithub.com%2FBenoitAnastay%2Fhome-assistant-addons-repository
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
