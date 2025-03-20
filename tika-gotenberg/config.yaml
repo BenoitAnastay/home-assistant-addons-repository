@@ -1,0 +1,17 @@
+name: Tika-Gotenberg
+version: 0.1.0
+slug: tika-gotenberg
+url: https://github.com/BenoitAnastay/tika-gotenberg-home-assistant-addon
+init: false
+description: An extension for paperless addon to use Tika and Gotenberg
+arch:
+- aarch64
+- amd64
+startup: system
+ports:
+  3000/tcp: null
+  9998/tcp: null
+ports_description:
+  3000/tcp: Gotenberg
+  9998/tcp: Tika
+image: ghcr.io/benoitanastay/tika-gotenberg/{arch}
