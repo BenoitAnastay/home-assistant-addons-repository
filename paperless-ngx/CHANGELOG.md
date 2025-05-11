@@ -1,22 +1,18 @@
 ## What’s changed
 
-## ✨ New features
+- ✨Update Paperless to v2.15.3 @BenoitAnastay ([#275](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/275))
+- 📝 Add Code of Conduct and issue template @BenoitAnastay ([#278](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/278))
 
-- 🎉 Add Tika and Gotenberg @BenoitAnastay ([#254](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/254))
-- ✨ Add locales adjustement for folder names @BenoitAnastay ([#256](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/256))
+## 📚 Documentation
 
-## 🚀 Enhancements
-
-- 🔧 Update default filename format @paull27 ([#239](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/239))
-
-## 🧰 Maintenance
-
-- 💚 Ingore FUNDING from yamllint @BenoitAnastay ([#244](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/244))
+- 📝 updated "Scanner Recommendations" links @BenoitAnastay ([#274](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/274))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.7.1 @[renovate[bot]](https://github.com/apps/renovate) ([#235](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/235))
-- ⬆️ Update debian_12/mariadb-client to v1:10.11.11-0+deb12u1 @[renovate[bot]](https://github.com/apps/renovate) ([#247](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/247))
-- ⬆️ Update debian_12/curl to v7.88.1-10+deb12u12 @[renovate[bot]](https://github.com/apps/renovate) ([#246](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/246))
-- ⬆️ Update debian_12/tzdata to v2025 @[renovate[bot]](https://github.com/apps/renovate) ([#249](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/249))
-- ⬆️ Dependencies update  @BenoitAnastay ([#250](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/250))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.8.0 @[renovate[bot]](https://github.com/apps/renovate) ([#257](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/257))
+- ⬆️ Update debian_12/ghostscript to v10.0.0~dfsg-11+deb12u7 @[renovate[bot]](https://github.com/apps/renovate) ([#264](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/264))
+- ⬆️ Update debian_12/tzdata to v2025b-0+deb12u1 @[renovate[bot]](https://github.com/apps/renovate) ([#265](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/265))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.8.1 @[renovate[bot]](https://github.com/apps/renovate) ([#266](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/266))
+- ⬆️ Update debian_12/xz-utils to v5.4.1-1 @[renovate[bot]](https://github.com/apps/renovate) ([#267](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/267))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.8.2 @[renovate[bot]](https://github.com/apps/renovate) ([#272](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/272))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.8.3 @[renovate[bot]](https://github.com/apps/renovate) ([#279](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/279))

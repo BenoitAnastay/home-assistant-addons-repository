@@ -1,5 +1,5 @@
 name: Paperless-ngx
-version: 2.3.0
+version: 3.0.0
 slug: paperless-ngx
 url: https://github.com/paperless-ngx/paperless-ngx
 init: false
@@ -29,10 +29,6 @@ options:
   filename: '{{ created_year }}/{{ correspondent }}/{{ title }}'
   language: eng
   language_packages: eng deu fra ita spa
-  default_superuser:
-    username: admin
-    email: admin@local.dev
-    password: changeme
   timezone: UTC
   ssl: false
   certfile: fullchain.pem
@@ -46,10 +42,6 @@ schema:
   filename: str
   language: str
   language_packages: str
-  default_superuser:
-    username: str
-    email: email
-    password: password
   timezone: str
   polling_interval: int?
   barcodes_enabled: bool?
