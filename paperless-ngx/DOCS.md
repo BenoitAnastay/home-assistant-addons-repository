@@ -74,23 +74,21 @@ keyfile: privkey.pem
 
 ### Option: `url`
 
-https://paperless-ngx.readthedocs.io/en/latest/configuration.html?highlight=paperless_url#hosting-security
+https://docs.paperless-ngx.com/configuration/#PAPERLESS_URL
 
 ### Option: `csrf_allowed`
 
-Used to add domains to`PAPERLESS_CSRF_TRUSTED_ORIGINS`
-
-https://paperless-ngx.readthedocs.io/en/latest/configuration.html?highlight=paperless_url#hosting-security
+Used to add domains to`PAPERLESS_CSRF_TRUSTED_ORIGINS`. [Docs](https://docs.paperless-ngx.com/configuration/#PAPERLESS_CSRF_TRUSTED_ORIGINS)
 
 ### Option: `filename`
 
-https://paperless-ngx.readthedocs.io/en/latest/advanced_usage.html#advanced-file-name-handling
+https://docs.paperless-ngx.com/advanced_usage/#file-name-handling
 
 ### Option: `language`
 
 Can be `eng`, `deu`, `fra`, `ita`, `spa`.
 This can be a combination of multiple languages such as deu+eng, in which case tesseract will use whatever language matches best.
-[Docs](https://paperless-ngx.readthedocs.io/en/latest/configuration.html#ocr-settings)
+[Docs](https://docs.paperless-ngx.com/configuration/#PAPERLESS_OCR_LANGUAGE)
 
 ### Option: `language_packages`
 
