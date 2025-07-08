@@ -57,10 +57,6 @@ url: http://example.com
 filename: "{created_year}/{correspondent}/{title}"
 language: eng
 language_packages: eng deu fra ita spa
-default_superuser:
-  username: admin
-  email: admin@example.com
-  password: changeme
 timezone: Europe/Paris
 polling_interval: 0
 barcodes_enabled: false
@@ -93,10 +89,6 @@ This can be a combination of multiple languages such as deu+eng, in which case t
 ### Option: `language_packages`
 
 This is the list of language packages to install, separated by space
-
-### Option: `default_superuser`
-
-When the addon starts up, if this user is not created, it will create it.
 
 ### Option: `timezone`
 
