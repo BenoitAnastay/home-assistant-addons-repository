@@ -57,6 +57,10 @@ url: http://example.com
 filename: "{created_year}/{correspondent}/{title}"
 language: eng
 language_packages: eng deu fra ita spa
+default_superuser:
+  username: admin
+  email: admin@example.com
+  password: changeme
 timezone: Europe/Paris
 polling_interval: 0
 barcodes_enabled: false
@@ -70,25 +74,31 @@ keyfile: privkey.pem
 
 ### Option: `url`
 
-https://docs.paperless-ngx.com/configuration/#PAPERLESS_URL
+https://paperless-ngx.readthedocs.io/en/latest/configuration.html?highlight=paperless_url#hosting-security
 
 ### Option: `csrf_allowed`
 
-Used to add domains to`PAPERLESS_CSRF_TRUSTED_ORIGINS`. [Docs](https://docs.paperless-ngx.com/configuration/#PAPERLESS_CSRF_TRUSTED_ORIGINS)
+Used to add domains to`PAPERLESS_CSRF_TRUSTED_ORIGINS`
+
+https://paperless-ngx.readthedocs.io/en/latest/configuration.html?highlight=paperless_url#hosting-security
 
 ### Option: `filename`
 
-https://docs.paperless-ngx.com/advanced_usage/#file-name-handling
+https://paperless-ngx.readthedocs.io/en/latest/advanced_usage.html#advanced-file-name-handling
 
 ### Option: `language`
 
 Can be `eng`, `deu`, `fra`, `ita`, `spa`.
 This can be a combination of multiple languages such as deu+eng, in which case tesseract will use whatever language matches best.
-[Docs](https://docs.paperless-ngx.com/configuration/#PAPERLESS_OCR_LANGUAGE)
+[Docs](https://paperless-ngx.readthedocs.io/en/latest/configuration.html#ocr-settings)
 
 ### Option: `language_packages`
 
 This is the list of language packages to install, separated by space
+
+### Option: `default_superuser`
+
+When the addon starts up, if this user is not created, it will create it.
 
 ### Option: `timezone`
 
