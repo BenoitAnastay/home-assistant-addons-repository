@@ -1,24 +1,21 @@
-## What’s changed
+## What's Changed
+* ⬆️ Update debian_13/imagemagick to v8:7.1.1.43+dfsg1-1+deb13u5 by @renovate[bot] in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/361
+* ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9.2.0 by @renovate[bot] in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/362
+* ⬆️ Update paperless-ngx/paperless-ngx to v2.20.6 by @renovate[bot] in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/363
+* ⬆️ Update debian_13/nginx to v1.26.3-3+deb13u2 by @renovate[bot] in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/365
+* ⬆️ Update paperless-ngx/paperless-ngx to v2.20.10 by @renovate[bot] in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/366
+* ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9.3.0 by @renovate[bot] in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/375
+* ⬆️ Update paperless-ngx/paperless-ngx to v2.20.13 by @renovate[bot] in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/372
+* ⬆️ Update debian_13/tzdata to v2026 by @renovate[bot] in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/371
+* ⬆️ Update debian_13/mariadb-client to v1:11.8.6-0+deb13u1 by @renovate[bot] in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/370
+* ⬆️ Update debian_13/imagemagick to v8:7.1.1.43+dfsg1-1+deb13u7 by @renovate[bot] in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/369
+* ⬆️ Update libpq5 and libpq-dev to version 17.9-0+deb13u1 in Dockerfile by @BenoitAnastay in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/376
+* ⬆️ Add jbig2enc by @BenoitAnastay in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/378
+* ⬆️ Update paperless-ngx/paperless-ngx to v2.20.14 by @renovate[bot] in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/377
+* Update badge by @BenoitAnastay in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/379
+* Update badge by @BenoitAnastay in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/380
+* 💚 Update Release-drafter by @BenoitAnastay in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/381
+* Implement Release Drafter by @BenoitAnastay in https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/382
 
-## 🐛 Bug fixes
 
-- 🐛 Use host timezone by default @BenoitAnastay ([#359](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/359))
-
-## ⬆️ Dependency updates
-
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.20.0 @[renovate[bot]](https://github.com/apps/renovate) ([#345](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/345))
-- ⬆️ Update actions/checkout action to v6 @[renovate[bot]](https://github.com/apps/renovate) ([#347](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/347))
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9 @[renovate[bot]](https://github.com/apps/renovate) ([#346](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/346))
-- ⬆️ Update debian_13/poppler-utils to v25.03.0-5+deb13u2 @[renovate[bot]](https://github.com/apps/renovate) ([#344](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/344))
-- ⬆️ Update debian_13/libxml2 to v2.12.7+dfsg+really2.9.14-2.1+deb13u2 @[renovate[bot]](https://github.com/apps/renovate) ([#343](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/343))
-- ⬆️ Update debian_13/imagemagick to v8:7.1.1.43+dfsg1-1+deb13u3 @[renovate[bot]](https://github.com/apps/renovate) ([#342](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/342))
-- ⬆️ Update debian_13/curl to v8.14.1-2+deb13u2 @[renovate[bot]](https://github.com/apps/renovate) ([#341](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/341))
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.20.1 @[renovate[bot]](https://github.com/apps/renovate) ([#348](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/348))
-- ⬆️update redis and ghostscript @BenoitAnastay ([#350](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/350))
-- ⬆️ Update debian_13/libpq-dev to v17.7-0+deb13u1 @[renovate[bot]](https://github.com/apps/renovate) ([#354](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/354))
-- ⬆️ Update debian_13/libpq5 to v17.7-0+deb13u1 @[renovate[bot]](https://github.com/apps/renovate) ([#355](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/355))
-- ⬆️ Update debian_13/imagemagick to v8:7.1.1.43+dfsg1-1+deb13u4 @[renovate[bot]](https://github.com/apps/renovate) ([#353](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/353))
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.20.3 - autoclosed @[renovate[bot]](https://github.com/apps/renovate) ([#351](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/351))
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.20.4 @[renovate[bot]](https://github.com/apps/renovate) ([#356](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/356))
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.20.5 @[renovate[bot]](https://github.com/apps/renovate) ([#357](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/357))
-- ⬆️ Update GNUPG version to 2.4.7-21+deb13u1 @BenoitAnastay ([#358](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/358))
+**Full Changelog**: https://github.com/BenoitAnastay/paperless-home-assistant-addon/compare/v3.1.2...v3.1.3
